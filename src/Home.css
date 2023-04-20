@@ -1,0 +1,93 @@
+
+.home-header {
+	text-transform: uppercase;
+	font-family: "Source Code Pro";
+	font-weight: 800;
+	/*font-size: 35px;*/
+	margin-bottom:  45px;
+}
+
+.api-listing {
+	max-width: 750px;
+	margin: 30px auto 10px auto;
+	text-align: left;
+	font-size: 24px;
+	color: #86c5ea;
+    font-weight: 500;
+    color: rgb(174 185 210);
+}
+
+.cards {
+	/*display:grid;
+	grid-template-rows: auto auto;*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	max-width: 800px;
+	margin: 0 auto 50px auto;
+}
+
+
+
+.cards > .col {
+	margin:  auto;
+}
+
+.card {
+	max-width: 350px;
+	height: 400px;
+	margin: .5rem 0.5rem;
+	padding:  1.5em;
+	/*float: left;*/
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.card-top {
+	display:grid;
+	grid-template-columns: 70px auto;
+	padding-bottom: 15px;
+}
+
+.card-image img {
+	max-width:  70px;
+}
+
+.card .card-title {
+	/*font-size: 24px;*/
+	font-weight: bold;
+	padding:  5px 5px 0 10px;
+	text-align:  left;
+}
+
+.card .card-title {
+	color:  black;
+}
+
+.card .card-content {
+	padding:  0;
+}
+
+.card .card-content p {
+    text-align: left;
+}
+
+ul:not(.browser-default) {
+    padding-left: 20px;
+}
+
+.card ul:not(.browser-default)>li {
+	list-style-type: disc;
+    text-align:  left;
+    /*padding-left: 10px;*/
+}
+
+
+.rapid-holder img {
+	max-width: 200px;
+	margin: 5px 0 40px 0;
+}
+
+

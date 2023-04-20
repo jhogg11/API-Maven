@@ -1,0 +1,64 @@
+
+.contact-form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+h1.contact-header {
+	text-transform: uppercase;
+	font-family: "Source Code Pro";
+	font-weight: 800;
+}
+
+.contact-submitted {
+/*	display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.contact-submitted i {
+	font-size: 80px;
+	margin: 30px 5px;
+	color: #16a8ff;
+}
+
+.form-group {
+	/*margin-bottom:  5px;*/
+}
+
+.form-group label {
+	float: left;
+	color:  black;
+	font-size: 14px;
+}
+
+.form-group input {
+	height: 2.5rem !important;
+}
+
+.form-group textarea {
+	height: 10rem;
+	border: 1px solid #9e9e9e;
+}
+
+.form-group select {
+	display: initial;
+	margin-bottom: 10px;
+	/*height: 2.5rem !important;*/
+	font-size:  14px;
+	border:  1px solid #9e9e9e;
+}
+
+.contact-form button {
+	background-color: #113c72;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.contact-form button:hover {
+	background-color: #113c72;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}

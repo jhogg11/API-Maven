@@ -1,0 +1,27 @@
+
+.page-footer {
+	background-color: #0f3f8a;
+	background-color: #24344e;
+	background-color:  rgb(247, 249, 249);
+	background-color: rgb(245 248 255);
+	color:  black;
+}
+
+.page-footer .footer-copyright {
+	background-color:  rgb(247, 249, 249);
+	background-color: rgb(245 248 255);
+}
+
+.page-footer a {
+	font-weight: initial;
+	color: black;
+	text-decoration: underline;
+}
+
+.page-footer ul:not(.browser-default) {
+    padding-left: 0;
+}
+
+.footer-links {
+	text-align: left;
+}
