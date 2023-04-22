@@ -40,7 +40,7 @@ function Contact() {
 		<h1 className="contact-header">Contact</h1>
 		{submitted ? 
 			<div className="contact-submitted">
-				<i class="material-icons">check</i>
+				<i className="material-icons">check</i>
 				<div>Thank you for contacting Hummingbird APIs.  We will get back to you shortly.</div>
 			</div>: 
 			<form className="contact-form" onSubmit={e => onSubmit(e)} method="POST">

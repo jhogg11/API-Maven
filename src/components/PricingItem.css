@@ -1,0 +1,285 @@
+
+.pricing {
+	padding-bottom: 60px;
+	position: relative;
+	/*font-family: "Rubik";*/
+	/* background-image: url(/static/media/home-banner-muted.4bfdb257.png);
+    background-size: cover;
+    background-position: 50% 65%;
+    opacity: 0.5;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);*/
+}
+
+.pricing-background {
+	position: absolute;
+	width: 100%;
+	/*height: 100%;*/
+	top: 0;
+	bottom: -105px;
+	background-image: url("../../images/home-banner-muted.png");
+	background-size: cover;
+	background-position: 50% 65%;
+	opacity: 0.5;
+    filter: grayscale(50%);
+}
+
+.pricing-content {
+	position: relative;
+}
+
+.pricing-header-logo {
+	max-width: 320px;
+	margin: 50px 0 0 0;
+}
+
+.pricing-subheader {
+	color: white;
+	margin: 8px 0 50px 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.rapid-notice {
+	width: 80%;
+	max-width: 550px;
+	max-width: 800px;
+	height: auto;
+	margin: 0 auto 30px;
+	padding: 35px 40px 10px 40px;
+	border-radius: 10px;
+	text-align: justify;
+}
+
+.rapid-notice-header {
+	margin: 8px 0;
+	font-size: 22px;
+	font-family: "Alfa Slab One";
+	font-family: Montserrat;
+	color: #991a2b;
+	color: #c61f36;
+	color: #bbb;
+}
+
+.rapid-notice p {
+	font-size: 20px;
+	line-height: 32px;
+	color: #333;
+	color: white;
+	font-weight: lighter;
+	font-family: Montserrat;
+}
+
+.rapid-link-holder {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.rapid-link-holder img {
+	height: 80px;
+}
+
+.rapid-link-holder img:hover {
+	opacity: 0.8;
+}
+
+.comparison {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+	width: 99%;
+	max-width: 950px;
+	margin: 0 auto;
+	font-size: 15px;
+}
+
+.comparison-type {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 450px;
+	justify-content: space-between;
+	align-self: center;
+	box-shadow: 0 2px 30px rgba(0,0,0,0.3);
+	background: white;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.1s ease-in-out;
+	background: #2f3338;
+}
+
+/*.comparison-type:hover {
+	transform: scale(1.05);
+	transition: all 0.1s ease-in-out;
+}
+*/
+.comparison-row {
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	font-weight: lighter;
+	/*letter-spacing: 0.4px;*/
+	line-height: 40px;
+	color: #999;
+}
+
+.comparison-row .highlight {
+	font-weight: bold;
+	color: #d85057;
+}
+
+.comparison-row i {
+	font-size: 20px;
+	color: #0ea4f4;
+	color: #309cb7;
+	color: #22cca7;
+}
+
+.comparison-row.alt i {
+	color: #c61f36;
+}
+
+.comparison-row div {
+	font-size: 20px;
+	font-weight: bold;
+	color: #d85057;
+}
+
+.comparison-row em {
+	font-style: normal;
+	color: #d85057;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 7px;
+	font-family: "Open Sans";
+	position: relative;
+	bottom: 2px;
+	text-shadow: 1px 0;
+}
+
+.comparison-row.alt span {
+	color: #ccc;
+	color: #666;
+	color: #5d5d5d;
+}
+
+.comparison-row:nth-child(1) {
+	padding-top: 20px;
+	font-size: 28px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	color: #aaa;
+	font-family: "Rubik";
+}
+
+.comparison-row:nth-child(2) {
+	height: 110px;
+	font-size: 90px;
+	font-weight: bold;
+	line-height: 110px;
+	color: #333;
+	color: white;
+	font-family: "Rubik";
+}
+
+.comparison-row:nth-child(2) > span {
+	font-size: 30px;
+	margin: 0 5px;
+}
+
+.comparison-row:nth-child(8) {
+	border-bottom: none;
+}
+
+.comparison-type > div:last-child {
+	height: 65px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.comparison-button {
+	height: 50px;
+	width: 80%;
+	max-width: 280px;
+	background: #d85057;
+	font-size: 1.1em;
+	line-height: 45px;
+	letter-spacing: 2px;
+	color: white;
+	border-radius: 100px;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+.comparison-button.demo {
+	margin-top: 0.1em;
+	background: #ee1140;
+}
+
+.comparison-button img {
+	position: relative;
+	top: -2px;
+	height: 30px;
+	line-height: 45px;
+	vertical-align: middle;
+	margin-left: 8px;
+	margin-right: -5px;
+}
+
+.comparison-button.gray {
+	background: #aaa;
+	cursor: initial;
+}
+
+.comparison-button.gold {
+	background: #ffb300;
+	color: #333;
+	font-weight: bold;
+}
+
+.test-key-email {
+	margin: 0 auto 20px auto;
+	font-size: 14px;
+	color: white;
+}
+
+.test-key-email em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f9a836;
+	cursor: pointer;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+	.pricing {
+		padding-bottom: 60px;
+	}
+
+	.comparison {
+		flex-direction: row;
+		font-size: 14px;
+	}
+
+	.comparison-type {
+		width: 32%;
+	}
+
+	.test-key-email {
+		margin-top: 20px;
+	}
+
+	.comparison-row:nth-child(1) {
+		font-size: 24px;
+	}
+
+	.comparison-row:nth-child(2) {
+		font-size: 70px;
+	}
+}
+

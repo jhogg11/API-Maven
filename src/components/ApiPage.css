@@ -1,0 +1,215 @@
+
+
+.sidebar {
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+	width: 180px;
+	/*background-color: #f1f1f1;*/
+	position: absolute;
+	/*height: 100%;*/
+	overflow: auto;
+}
+
+.sidebar a {
+	display: block;
+	color: black;
+	padding: 16px;
+	text-decoration: none;
+	text-align: left;
+}
+ 
+/*.sidebar a.active {
+	background-color: #04AA6D;
+	color: white;
+}*/
+
+/*.sidebar a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}*/
+
+div.content {
+	margin-left: 180px;
+	padding: 1px 16px;
+/*	height: 1000px;*/
+	text-align: left;
+	/*background-color: blue;*/
+	padding-bottom: 250px;
+	/*min-height: 90vh;*/
+}
+
+.api-top {
+	display: grid;
+	grid-template-columns: 100px auto;
+	gap: 10px;
+	/*align-content: start;*/
+	margin: 30px auto 30px auto;
+}
+
+.api-top img {
+	width: 100px;
+}
+
+.api-top-detail {
+	display: grid;
+	grid-template-rows: auto auto;
+}
+
+.api-top-summary {
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
+.api-top h1 {
+	margin: 0;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-family: "Source Code Pro";
+	font-weight: 800;
+	text-align: left;
+}
+
+/*.api-content ul {
+	padding-left: 30px;
+}
+
+.api-content ul li {
+	list-style-type: disc;
+	font-size: 1.2em;
+}*/
+
+.api-content ul li {
+	display: grid;
+	grid-template-columns: 46px auto;
+	align-content: center;
+	text-align: left;
+}
+
+.api-content ul li i {
+	font-size: 36px;
+	color: #0fc733;
+	color: #213547;
+}
+
+.api-content ul li div {
+	font-size: 18px;
+	align-self: center;
+}
+
+.api-pricing {
+	display: block;
+	overflow: auto;
+}
+
+.pricing-item.card {
+	width: 250px;
+	padding: 0.5em 1.2em 1em 1.2em;
+	margin: 0.2rem;
+	height: initial;
+	font-size: 14px;
+	float: left;
+}
+
+.pricing-top {
+	display: flex;
+	justify-content: space-between;
+	font-size: 30px;
+	font-family: "Source Code Pro";
+	font-weight: 800;
+}
+
+.pricing-top div:first-child {
+	text-transform: uppercase;
+	/*font-size: 35px;*/
+}
+
+.pricing-top div span {
+	font-size: 20px;
+}
+
+.pricing-item-requests > div {
+	margin-left: 5px;
+}
+
+.pricing-requests-item-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pricing-requests-item ul {
+	margin-top: 0;
+}
+
+.pricing-requests-item .endpoint-list {
+	padding-left: 10px;
+}
+
+ul.endpoint-list li {
+	display: grid;
+    grid-template-columns: 30px auto;
+}
+
+ul.endpoint-list li i {
+	/*color: rgb(33,53,71);*/
+	font-size: 24px;
+	width: 24px;
+}
+
+.pricing-item-requests li span {
+	font-weight: initial;
+}
+
+/*.pricing-item-requests div:first-child {
+	margin-left: 0;
+}*/
+
+.pricing-item-requests span {
+	font-weight: 800;
+	margin-right: 5px;
+}
+
+.pricing-rapid-prompt {
+	display: grid;
+	grid-template-columns: 30px auto;
+	gap: 10px;
+	color: white;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.pricing-rapid-prompt img {
+	width: 30px;
+}
+
+.pricing-rapid-prompt span {
+	align-self: center;
+	position: relative;
+	bottom: 2px;
+}
+
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {
+		float: left;
+	}
+
+	div.content {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
